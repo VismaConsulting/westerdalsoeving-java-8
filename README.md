@@ -18,7 +18,10 @@ Skriv ferdig begge testene i `SchoolTest`, den første henter ut alle studenter 
 ## a 
 Gjør de nødvendige endringene for at `convertToString` metoden i `StreamConvert` klassen skal
    fungere.
-   Skriv så om metoden `orderedList` slik at listen er sortert alfabetisk. **HINT** Det finnes forskjellige typer `Streams`.
+   Skriv så om metoden `orderedList` slik at listen er sortert alfabetisk. 
+   
+   **HINT** Det finnes forskjellige typer `Streams`.
+   
 ## b 
 Skriv ferdig metodene i `Groups` klassen slik at de returnerer det de skal.
    For at testene skal kjøre grønn må du også skrive ferdig disse, det står
@@ -29,7 +32,7 @@ Skriv ferdig metodene i `Groups` klassen slik at de returnerer det de skal.
 
 # Oppgave 4 (Reducer)
 
-## a  
+Få testene til å kjøre grønt :)
 
 # Oppgave 5 (Flatmap)
 
