@@ -20,7 +20,7 @@ public class StreamConvertTest {
 
     @Before
     public void setUp() throws Exception {
-        stringDoubles = Arrays.asList("2.10", "3.67", "5.33", "8.7");
+        stringDoubles = Arrays.asList("2.1", "3.67", "5.33", "8.7");
         orderedList = Arrays.asList("a2", "b1", "b3", "c", "d2", "d6", "r1");
     }
 

@@ -2,6 +2,8 @@ package oppgave3.a;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.StringJoiner;
+import java.util.stream.Collectors;
 
 /**
  * 14.11.2016
@@ -29,12 +31,10 @@ public class Mapping {
 
     // Before Java 8
     public String collectedResult(String search) {
-        String result = "";
-        for(Map.Entry<Integer, String> entry : cars.entrySet()){
-            if(search.equals(entry.getValue())) {
-                result = entry.getValue();
-            }
-        }
-        return result;
+        return cars.entrySet()
+                .stream()
+                .filter(entry -> search.equals(entry.getValue()))
+                .map(Map.Entry::getValue)
+                .reduce((result, string) -> result + string).get();
     }
 }

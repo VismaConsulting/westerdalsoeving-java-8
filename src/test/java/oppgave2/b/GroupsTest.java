@@ -26,7 +26,7 @@ public class GroupsTest {
 
     @Test
     public void groupByAge() throws Exception {
-        // Print out grouped by age
+        groups.groupByAge().forEach((age, person) -> System.out.format("Age: %s: %s\n", age, person));
     }
 
     @Test

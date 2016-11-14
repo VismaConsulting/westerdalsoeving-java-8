@@ -34,18 +34,19 @@ public class Groups {
     }
 
     public Map<String, List<Person>> groupByName() {
-        return null;
+        return people.stream().collect(Collectors.groupingBy(Person::getName));
     }
 
     public Map<Integer, List<Person>> groupByAge() {
-        return null;
+        return people.stream().collect(Collectors.groupingBy(Person::getAge));
     }
 
     public Map<String, List<Person>> groupBySex() {
-        return null;
+        return people.stream().collect(Collectors.groupingBy(Person::getSex));
     }
 
     public Double findAverageAge() {
-        return 0.0d;
+        return people.stream().mapToInt(Person::getAge).average().getAsDouble();
+
     }
 }
