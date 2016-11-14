@@ -23,6 +23,20 @@ public class PingvinkoloniTest {
         List<Pingvin> pingvinerSomVeierOver = Pingvinkoloni.pingvinerSomVeierOver(pingviner, 22);
 
         assertThat(pingvinerSomVeierOver).hasSize(1);
+    }
 
+    @Test
+    public void skalSortereFlokkenAlfabetiskEtterNavn() throws Exception {
+        List<Pingvin> pingviner = Arrays.asList(
+                new Pingvin("Åge", 1996, 23),
+                new Pingvin("Tor", 2000, 20),
+                new Pingvin("Per", 2003, 11),
+                new Pingvin("Mohammed", 2005, 15)
+        );
+        List<Pingvin> sortertePingviner = Pingvinkoloni.sorterEtterNavn(pingviner);
+        assertThat(sortertePingviner.get(0).navn).isEqualTo("Mohammed");
+        assertThat(sortertePingviner.get(1).navn).isEqualTo("Per");
+        assertThat(sortertePingviner.get(2).navn).isEqualTo("Tor");
+        assertThat(sortertePingviner.get(3).navn).isEqualTo("Åge");
     }
 }

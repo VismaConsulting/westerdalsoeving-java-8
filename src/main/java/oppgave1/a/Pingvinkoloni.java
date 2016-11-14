@@ -8,4 +8,7 @@ public class Pingvinkoloni {
         return null;
     }
 
+    public static List<Pingvin> sorterEtterNavn(List<Pingvin> pingviner) {
+        return null;
+    }
 }
