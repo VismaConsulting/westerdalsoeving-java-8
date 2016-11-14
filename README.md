@@ -29,6 +29,9 @@ a. Konverter mapping fra gammel måte til den nye (Java 8) måten.
 
 # Oppgave 5 (Flatmap)
 
+a. Skriv ferdig metoden `convertToOneSetWithFlatMap` i `Kommuner` klassen slik at den slår sammen alle
+   kommunene til ett `Set`.
+
 # Oppgave 6 (ParallellStream)
 
 # Oppgave 7 (Consumer/Supplier)

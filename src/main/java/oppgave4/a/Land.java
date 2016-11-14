@@ -1,4 +1,4 @@
-package oppgave4;
+package oppgave4.a;
 
 public class Land {
     public final String navn;

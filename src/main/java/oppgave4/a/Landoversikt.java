@@ -1,4 +1,4 @@
-package oppgave4;
+package oppgave4.a;
 
 import java.util.List;
 

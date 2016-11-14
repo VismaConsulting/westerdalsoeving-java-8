@@ -1,5 +1,7 @@
-package oppgave4;
+package oppgave4.a;
 
+import oppgave4.a.Land;
+import oppgave4.a.Landoversikt;
 import org.junit.Test;
 
 import java.io.IOException;
