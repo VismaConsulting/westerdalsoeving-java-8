@@ -1,5 +1,7 @@
-package oppgave1;
+package oppgave1.a;
 
+import oppgave1.a.Pingvin;
+import oppgave1.a.Pingvinkoloni;
 import org.junit.Test;
 
 import java.util.Arrays;

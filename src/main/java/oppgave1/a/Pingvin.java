@@ -1,4 +1,4 @@
-package oppgave1;
+package oppgave1.a;
 
 public class Pingvin {
 
