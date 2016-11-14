@@ -27,6 +27,8 @@ a. Konverter mapping fra gammel måte til den nye (Java 8) måten.
 
 # Oppgave 4 (Reducer)
 
+a. 
+
 # Oppgave 5 (Flatmap)
 
 a. Skriv ferdig metoden `convertToOneSetWithFlatMap` i `Kommuner` klassen slik at den slår sammen alle

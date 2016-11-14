@@ -26,10 +26,10 @@ public class MappingTest {
 
     @Test
     public void collectedResult() throws Exception {
-        for(String value : searches){
-            System.out.printf("Expected: %-10s | Result: %10s\n", value, mapping.collectedResult(value));
-            assertThat(value.equals(mapping.collectedResult(value)));
-        }
+        searches.forEach(s -> {
+            System.out.printf("Expected: %-10s | Result: %10s\n", s, mapping.collectedResult(s));
+            assertThat(s.equals(mapping.collectedResult(s)));
+        });
     }
 
 }

@@ -1,6 +1,5 @@
 package oppgave5.a;
 
-import oppgave5.a.Kommuner;
 import org.junit.Before;
 import org.junit.Test;
 
