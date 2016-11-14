@@ -18,8 +18,12 @@ a. Gjør de nødvendige endringene for at `convertToString` metoden i `StreamCon
    
    **HINT** Det finnes forskjellige typer `Streams`.
 b. Skriv ferdig metodene i `Groups` klassen slik at de returnerer det de skal.
+   For at testene skal kjøre grønn må du også skrive ferdig disse, det står
+   forklart hva som er forventet.
 
 # Oppgave 3 (Mapping)
+
+a. Konverter mapping fra gammel måte til den nye (Java 8) måten.
 
 # Oppgave 4 (Reducer)
 

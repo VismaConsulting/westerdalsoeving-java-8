@@ -26,17 +26,23 @@ public class GroupsTest {
 
     @Test
     public void groupByAge() throws Exception {
-        groups.groupByName().forEach((age, person) -> System.out.format("Age %s: %s\n", age, person));
+        // Print out grouped by age
     }
 
     @Test
     public void groupBySex() throws Exception {
-        groups.groupByName().forEach((sex, person) -> System.out.format("Sex %s: %s\n", sex, person));
+        // Print out grouped by sex
     }
 
     @Test
     public void findAverageAge() throws Exception {
         assertThat(groups.findAverageAge()).isEqualTo(19.846153846153847);
+    }
+
+    @Test
+    public void setEachPersonsNameUsingForEach() throws Exception {
+        // Use forEach() to set the names for all people in
+        // groups
     }
 
 }
